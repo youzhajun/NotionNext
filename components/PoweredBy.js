@@ -6,7 +6,11 @@ import { siteConfig } from '@/lib/config'
  */
 export default function PoweredBy(props) {
   return (
-    <div
+    <div></div>
+  )
+}
+
+/* <div
       className={`gap-x-1 flex flex-wrap text-sm font-serif ${props.className || ''}`}>
       <span>Powered by</span>
       <a
@@ -15,6 +19,4 @@ export default function PoweredBy(props) {
         NotionNext {siteConfig('VERSION')}
       </a>
       .
-    </div>
-  )
-}
+    </div> */
